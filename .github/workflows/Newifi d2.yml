@@ -6,18 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-lede6.0
-
-on:
-  repository_dispatch:
-  workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
-  schedule:
-    - cron: 0 22 */3 * * 
+name: Newifi d2
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
